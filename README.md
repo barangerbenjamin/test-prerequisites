@@ -6,6 +6,8 @@ The script will check:
 - Windows build - should be `18362` or above
 - Virtualization - should be enabled
 
+Result will be one of the follow:
+
 <details>
     <summary>All prerequisites are met</summary>
     <p><span style="color: green">Your system is ready! You can start the setup</span> 😀 will be prompted</p>
