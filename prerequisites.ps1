@@ -14,6 +14,7 @@ if(($version -eq 10) -and ($build -ge 18362) -and ($virtu -eq $true)){
     Write-Host "Please update to Windows 10 before going any further." -ForegroundColor Yellow
 }elseif($build -lt 18362){
     Write-Host "You need to install the latest updates before going any further." -ForegroundColor Yellow
+    "C:\Windows\System32\control.exe /name Microsoft.WindowsUpdate" | cmd
 }elseif($virtu -eq $false){
     Write-Host "You need to enable virtualization in the BIOS." -ForegroundColor Yellow
 }elseif($virtu -eq $null){
