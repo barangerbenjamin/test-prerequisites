@@ -6,7 +6,7 @@ The script will check:
 - Windows build - should be `18362` or above
 - Virtualization - should be enabled
 
-Result will be one of the follow:
+Result will be one of the following:
 
 <details>
     <summary>All prerequisites are met</summary>
